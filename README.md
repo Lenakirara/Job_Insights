@@ -88,7 +88,7 @@ Na estrutura deste _template_, você deve implementar as funções necessárias.
 
 - `git clone git@github.com:Lenakirara/Job_Insights.git`.
 - Entre na pasta do repositório que você acabou de clonar:
-  - `cd sd-011-project-job-insights`
+  - `cd Job_Insights`
 
 2. Crie o ambiente virtual para o projeto
 

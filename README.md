@@ -1,50 +1,6 @@
-### Termos e acordos
-
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do
-Manual da Pessoa Estudante da Trybe.
-
 # Boas vindas ao repositório do projeto Job Insights!
 
-Você já usa o _GitHub_ diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
-
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir desse repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
-
----
-
-## Sumário
-
-- [Sumário](#sumário)
-- [Habilidades](#habilidades)
-- [Entregáveis](#entregáveis)
-  - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
-  - [Estrutura](#estrutura)
-- [Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
-  - [Data de Entrega](#data-de-entrega)
-  - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
-  - [Durante o desenvolvimento](#durante-o-desenvolvimento)
-    - [Linter](#linter)
-    - [Testes](#testes)
-  - [Requisitos](#requisitos)
-    - [Requisitos obrigatórios](#requisitos-obrigatórios)
-      - [1 - Implemente a função `read`](#1---implemente-a-função-read)
-      - [2 - Implemente a função `get_unique_job_types`](#2---implemente-a-função-get_unique_job_types)
-      - [3 - Implemente a função `get_unique_industries`](#3---implemente-a-função-get_unique_industries)
-      - [4 - Implemente a função `get_max_salary`](#4---implemente-a-função-get_max_salary)
-      - [5 - Implemente a função `get_min_salary`](#5---implemente-a-função-get_min_salary)
-      - [6 - Implemente a função `filter_by_job_type`](#6---implemente-a-função-filter_by_job_type)
-      - [7 - Implemente a função `filter_by_industry`](#7---implemente-a-função-filter_by_industry)
-      - [8 - Implemente a função `matches_salary_range`](#8---implemente-a-função-matches_salary_range)
-      - [9 - Implemente a função `filter_by_salary_range`](#9---implemente-a-função-filter_by_salary_range)
-      - [10 - Implemente um teste para a função `sort_by`](#10---implemente-um-teste-para-a-função-sort_by)
-    - [Requisitos bônus](#requisitos-bônus)
-      - [11 - Implemente a página de um job](#11---implemente-a-página-de-um-job)
-  - [Depois de terminar o desenvolvimento](#depois-de-terminar-o-desenvolvimento)
-    - [Revisando um pull request](#revisando-um-pull-request)
-- [Avisos Finais](#avisos-finais)
-
----
-
-## Habilidades
+## Habilidades Desenvolvidas:
 
 - Utilizar o terminal interativo do Python.
 - Utilizar estruturas condicionais e de repetição.
@@ -124,22 +80,13 @@ Este repositório já contém um _template_ com a estrutura de diretórios e arq
 
 Na estrutura deste _template_, você deve implementar as funções necessárias. Novos arquivos e funções podem ser criados conforme a necessidade da sua implementação, porém não remova arquivos já existentes.
 
-
-
-## Instruções para entregar seu projeto
-
-### Data de Entrega
-
-- Serão `2` dias de projeto.
-- Data de entrega para avaliação final do projeto: `31/01/2022 - 14:00h`.
-
 ---
 
 ### Antes de começar a desenvolver
 
 1. Clone o repositório
 
-- `git clone https://github.com/tryber/sd-011-project-job-insights.git`.
+- `git clone git@github.com:Lenakirara/Job_Insights.git`.
 - Entre na pasta do repositório que você acabou de clonar:
   - `cd sd-011-project-job-insights`
 
@@ -483,40 +430,5 @@ Para fechar com chave de ouro, que tal testar o quanto você aprendeu de Flask a
 - A view `job` existe no arquivo `src/routes_and_views.py`, e recebe o parâmetro `index` (e somente ele).
 - A página de cada um dos jobs deve retornar o status code 200.
 - A página de um job específico (escolhido previamente) deve retornar o HTML exato esperado.
-
----
-
-
-### Depois de terminar o desenvolvimento
-
-Para **"entregar"** seu projeto, siga os passos a seguir:
-
-- Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas
-  - No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**
-  - No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**
-  - No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-011`
-
-Se ainda houver alguma dúvida sobre como entregar seu projeto, [aqui tem um video explicativo](https://vimeo.com/362189205).
-
-⚠ Lembre-se que garantir que todas as _issues_ comentadas pelo **Lint** estão resolvidas! ⚠
-
----
-
-#### Revisando um pull request
-
-À medida que você e as outras pessoas que estudam na Trybe forem entregando os projetos, vocês receberão um alerta via Slack para também fazer a revisão dos Pull Requests dos seus colegas. Fiquem atentos às mensagens do "Pull Reminders" no Slack!
-
-Use o material que você já viu sobre [Code Review](https://app.betrybe.com/course/real-life-engineer/code-review) para te ajudar a revisar os projetos que chegaram para você.
-
----
-
-
-## Avisos Finais
-
-Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo ou o formulário ou o arquivo `feedback.jsonc` na raiz do projeto. Escolha um dos dois. Leva menos de 3 minutos!
-
-Link: [FORMULÁRIO DE AVALIAÇÃO DE PROJETO](https://bit.ly/2OfLJPn)
-
-O avaliador automático não necessariamente avalia seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido. Então, não se assuste se isso acontecer, ok?
 
 ---
